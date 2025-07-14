@@ -5,17 +5,7 @@ using System.Linq;
 namespace Learning
 {
 
-    class BattleShip
-    {
-        static void Main()
-        {
-            var game = new BattleshipGame(); // Initialize game with two boards
-            game.Setup();                     // Place fleets randomly
-            game.Play();                      // Enter game loop
-            Console.WriteLine("Press any key to exit..."); // Final prompt
-            Console.ReadKey();                // Wait for user input to close
-        }
-    }
+
 
     public class BattleshipGame
     {
